@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_container {
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.empty_item {
+    height: 15%;
+}
+
+.rule_title_item {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.rule_title {
+    font-size: 24px;
+    width: 90%;
+}
+
+.rule_details_item {
+    width: 100%;
+    height: 200px;
+    background-color: #ff3c3c3c;
+    justify-content: center;
+}
+
+.rule_details {
+    font-size: 24px;
+    width: 90%;
+}

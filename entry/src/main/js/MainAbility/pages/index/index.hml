@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="inner_container">
+        <list class="list">
+            <list-item class="empty_item"></list-item>
+
+            <list-item class="rule_title_item" @click="toggleMenu(0)">
+                <text class="rule_title">Rule 1</text>
+            </list-item>
+
+            <list-item if="{{ expanded[0] }}" class="rule_details_item">
+                <text class="rule_details">{{ longText }}</text>
+            </list-item>
+
+            <list-item class="rule_title_item" @click="toggleMenu(1)">
+                <text class="rule_title">Rule 2</text>
+            </list-item>
+
+            <list-item if="{{ expanded[1] }}" class="rule_details_item">
+                <text class="rule_details">{{ longText }}</text>
+            </list-item>
+
+            <list-item class="rule_title_item" @click="toggleMenu(2)">
+                <text class="rule_title">Rule 3</text>
+            </list-item>
+
+            <list-item if="{{ expanded[2] }}" class="rule_details_item">
+                <text class="rule_details">{{ longText }}</text>
+            </list-item>
+
+            <list-item class="empty_item"></list-item>
+        </list>
+    </div>
+</div>
